@@ -60,7 +60,6 @@ cite {
     font-size: 1rem;
     margin-top: 1rem;
 }
-
 .neutral-theme {
     background-color: white;
     --button-color: var(--primary);
@@ -133,6 +132,7 @@ cite {
 .about-container {
     max-width: 960px;
     margin: 0 auto;
+    font-size: 1.2em;
 }
 
 .about-img {
@@ -192,12 +192,20 @@ footer {
     background-size: 60px;   
 }
 
-.instagram {
-    background-image: url(/images/instagram.svg);
+.github{
+    background-image: url(/images/github.svg);
 }
 
 .youtube {
     background-image: url(/images/youtube.svg);
+}
+
+.spotify {
+    background-image: url(/images/spotify.png);
+}
+
+.instagram {
+    background-image: url(/images/instagram.png);
 }
 
 .social-link:hover {
