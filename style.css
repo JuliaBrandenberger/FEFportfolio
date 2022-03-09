@@ -1,5 +1,8 @@
 :root {
-    --primary: red;
+    --primary: #A43820;
+    --theme1: #BDF0D6;
+    --theme2: #e2602f;
+    --theme3: #0041a7;
     --spacing: 4rem;
 }
 
@@ -60,6 +63,17 @@ cite {
     font-size: 1rem;
     margin-top: 1rem;
 }
+a {
+    color: #e6ab8b;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--theme3);
+}
+
 .neutral-theme {
     background-color: white;
     --button-color: var(--primary);
@@ -72,6 +86,11 @@ cite {
     --button-color: white;
     --button-hover-color: var(--primary);
 }
+
+.primary-theme h2 {
+    color: var(--theme2);
+}
+
 
 .button {
     display: inline-block;
@@ -136,16 +155,40 @@ cite {
 }
 
 .about-img {
+    /*background-image: url(/images/Julia.jpg);*/
     display: block;
-    width: 100%;
     max-width: 350px;
     margin: 0 auto var(--spacing); 
     filter: grayscale(100%);
 }
 
 .about-img:hover {
+    /*background-image: url(/images/Juliacowboy.jpg);*/
     filter: grayscale(0);
 }
+
+.about-img-container > .surprise-cowboy {
+    display: none;
+    /* this has more specificity than rule below this, because a class is more specific than an element*/
+}
+
+.about-img-container > img {
+    display: block;
+    max-width: 350px;
+    margin: 0 auto var(--spacing); 
+}
+
+.about-img-container:hover > .surprise-cowboy {
+    display: block;
+    max-width: 350px;
+    
+}
+
+.about-img-container:hover > .about-img {
+    visibility: hidden;
+    position: absolute; /*visibility hides without affecting the layout, position absolute removes it from the layout. without this it messes up the page flow.*/
+}
+
 
 article {
     display: flex;
@@ -155,6 +198,10 @@ article {
 
 .article-text {
     padding-right: .5rem;
+}
+
+.article-text > p {
+    font-size: 1.5em;
 }
 
 .article-img {

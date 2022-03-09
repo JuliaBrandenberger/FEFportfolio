@@ -8,7 +8,7 @@
 </head>
 <body>
     <header class="neutral-theme">
-        <h1>Hello! My name is <span class="header-highlight">Julia Brandenberger</span>.<br>I'm a Web Developer</h1>
+        <h1>Hello! My name is <span class="header-highlight">Julia Brandenberger</span>.<br>I'm an Artist and Web Developer.</h1>
         <a href="#about-jump" class="button header-link">Find out more</a>
     </header>
     <main>
@@ -16,11 +16,14 @@
             <a id="about-jump"></a>
             <h2>About Me</h2>
             <div class="about-container">
-                <img class="about-img" src="/images/Julia.jpg" alt="a photograph of Julia. She is a 30 year old white woman who is smiling and sunlit on the beach. Her hair is blonde and blowing in the wind about her.">
+                <div class="about-img-container">
+                    <img src="images/Juliacowboy.jpg" class="surprise-cowboy" aria-hidden="true">
+                    <img src="images/Julia.jpg" class="about-img" alt="a photograph of Julia. She is a 30 year old white woman who is smiling and sunlit on the beach. Her hair is blonde and blowing in the wind about her."/>
+                </div>
                 <div class="about-text">
                     <p>I'm Julia. 
                     </p>
-                    <p>I'm a dance and theater artist who decided to start learning web development. I've discovered that I enjoy the mental challenge and feeling of accomplishment that comes from solving problems through code.
+                    <p>I'm a <a href="https://www.roguetheology.com">dance and theater artist</a> who decided to start learning web development. I've discovered that I enjoy the mental challenge and feeling of accomplishment that comes from solving problems through code.
                     </p>
                     <p>I've studied "How to Code Simple Data" and "How to Code Complex Data" through <a href="https://www.edx.org/course/how-to-code-simple-data">EdX with the University of British Columbia</a>.</p>
                     <p>I was part of the Fall 2021 cohort of <a href="https://www.vuevixens.org/">Front End Foxes</a>.</p>
@@ -34,24 +37,24 @@
             </blockquote>
         </section>
         <section class="neutral-theme">
-            <h2>Projects</h2>
+            <h2 class="projects">Coding Projects</h2>
             <article>
                 <div class="article-text">
                     <h3>Percussive Calculator</h3>
-                    <p>Do you ever wish that you could make music AND figure out how much to tip at the same time? Well now you can! This project demonstrates a firm grasp on the fundamentals of Javascript. </p>
+                    <p>Do you ever wish that you could make music AND figure out how much to tip at the same time? Well now you can!</p>
                     <a href="https://percussive-calc.glitch.me" class="button">See it live</a>
                     <a href="https://github.com/JuliaBrandenberger/Calculator" class="button">Fork it on Github</a>
                 </div>
-                <img src="/images/percussive.png" class="article-img" alt="placeholder alt text"> 
+                <img src="/images/percussive.png" class="article-img" alt="image of a colorful calculator"> 
             </article>
             <article>
                 <div class="article-text">
                     <h3>Etch-A-Sketch</h3>
-                    <p>Doodle to your heart's content! This primitive version of paint demonstrates DOM manipulation and Events.</p>
+                    <p>Doodle to your heart's content! This etch-a-sketch allows you to choose between black, greyscale, or rainbow pencils.</p>
                     <a href="https://simple-paint-project.glitch.me" class="button">See it live</a>
                     <a href="https://github.com/JuliaBrandenberger/etch-a-sketch" class="button">Fork it on Github</a>
                 </div>
-                <img src="/images/paint.png" class="article-img" alt="placeholder alt text"> 
+                <img src="/images/paint.png" class="article-img" alt="image of squares that have been filled in with black, grey, or rainbow colors"> 
             </article>
             <article>
                 <div class="article-text">
@@ -60,20 +63,48 @@
                         <a href="https://tweedleisms.glitch.me" class="button">See it live</a>
                         <a href="https://github.com/JuliaBrandenberger/Tweedleisms" class="button">Fork it on Github</a>
                 </div>
-                <img src="/images/project.jpg" class="article-img" alt="placeholder alt text"> 
+                <img src="/images/tweedlisms.png" class="article-img" alt="image of a man wrapped in a blanket with words below that tell the player how long it took them to type a sentence"> 
             </article>
             <article>
                 <div class="article-text">
                     <h3>Rock Paper Scissors</h3>
-                        <p>Test your skills against the computer as you play a game of rock, paper, scissors. This project demonstrates javascript fundamentals. Thank you for playing! </p>
+                        <p>Test your skills against the computer as you play a game of rock, paper, scissors. First to win 5 games wins the tournament. Thank you for playing! </p>
                         <a href="https://play-rock-paper-scissors.glitch.me" class="button">See it live</a>
                         <a href="https://github.com/JuliaBrandenberger/RockPaperScissors.git" class="button">Fork it on Github</a>
                 </div>
-                <img src="/images/rockpaperscissors.png" class="article-img" alt="placeholder alt text"> 
+                <img src="/images/rockpaperscissors.png" class="article-img" alt="image of rock paper and scissors game"> 
+            </article>
+        </section>
+        <section class="neutral-theme">
+            <h2 class="art">Art Projects</h2>
+            <article>
+                <div class="article-text">
+                    <h3>Rogue Theology</h3>
+                    <p>I create interactive, immersive and experimental dance/theatre pieces. My work delves into the questions and uncertainties of the human condition through experiments in comedy and ritual.  </p>
+                    <a href="https://www.roguetheology.com" class="button">Visit Rogue Theology</a>
+                    <a href="https://www.instagram.com/rogue.theology/" class="button">Visit my Instagram</a>
+                </div>
+                <img src="/images/brightghost.jpeg" class="article-img" alt="image of a sheet ghost bathed in red light"> 
+            </article>
+            <article>
+                <div class="article-text">
+                    <h3>ReVisioning the Arts</h3>
+                    <p>ReVisioning the Arts is an anti-elitist arts podcast. The show has two primary focuses: offering strength and encouragement to struggling artists and dreaming up new world models that would support as many people as possible in making their art.</p>
+                    <a href="https://open.spotify.com/show/4knm74Timrm1L6saBBXuYe" class="button">Listen</a>
+                </div>
+                <img src="/images/revisarts.png" class="article-img" alt="image of a woman dancing with text behind her that says revisioning the arts"> 
+            </article>
+            <article>
+                <div class="article-text">
+                    <h3>Haunted Haven</h3>
+                    <p>If you like candles you've come to the right place. What started as a Halloween fan club has become a weekly hub and hangout for those who are completely obsessed with wax and fragrance.</p>
+                    <a href="https://www.youtube.com/c/HauntedHaven" class="button">Watch</a>
+                </div>
+                <img src="/images/hauntedhaven.png" class="article-img" alt="a spooky pumpkin head sits amidst a field of white daisies"> 
             </article>
             
-            
         </section>
+
         <section class="contact primary-theme">
             <h2>Contact</h2>
             <p>If you'd like to work with me, you can drop me a message!</p>
@@ -83,15 +114,12 @@
     <footer>
         <ul class="social">
             <li class="social-item">
-                <a class="social-link roguetheology" href="https://github.com/JuliaBrandenberger">RogueTheology</a>
-            </li>
-            <li class="social-item">
                 <a class="social-link github" href="https://github.com/JuliaBrandenberger">Github</a>
             </li>
             <li class="social-item">
                 <a class="social-link youtube" href="https://www.youtube.com/c/HauntedHaven">Youtube</a>
             </li>
-            </li class="social-item">
+            <li class="social-item">
                 <a class="social-link spotify" href="https://open.spotify.com/show/4knm74Timrm1L6saBBXuYe">Spotify</a>
             </li>
             <li class="social-item">
