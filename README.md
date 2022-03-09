@@ -1,3 +1,1 @@
-HELLO WORLD
-
-"Hello Odin"
+Portfolio of coding projects
